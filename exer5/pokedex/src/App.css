@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  margin-top: 40px;
+}
+
+.nav-buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ffcc01;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+button:hover {
+  background-color: #ffdd33;
+}
+
+.pokedex-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pokemon-card,
+.pokemon-info-card {
+  padding: 20px;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+img{
+  padding: 50px;
+  border: 3px solid #000000;
+}
+
+.type-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  margin-right: 6px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tab-buttons button {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.tab-buttons button.active {
+  background-color: #6390f0;
+  color: white;
+}
+
+.pokemon-info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-title {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.info-box {
+  width: 100%;
+  height: 300px; /* Fixed height */
+  overflow-y: auto; /* Scroll if content overflows */
+  background-color: #c7c7c7;
+  margin-bottom: 10px;
+}
+
+.info-box ul {
+  text-align: left;
+  margin: 0;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tab-buttons button {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.tab-buttons button.active {
+  background-color: #61bf46;
+  color: white;
+}
